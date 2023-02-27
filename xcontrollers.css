@@ -1,0 +1,773 @@
+body{
+ background-color: #000000;
+ margin: 0;
+}
+
+/*logo */
+.logo{
+    display: block;
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 20px;
+  }
+
+  /* Navigation Bar */
+  #abc{
+    width:100%;
+    height:100vh;
+    padding-top: 20px;
+
+  }
+  nav{
+    width: 100%;
+    height: 50px;
+    background-color: none;
+    line-height: 50px;
+  }
+  nav ul{
+    padding-left: 350px;
+    margin-right: 30px;
+  }
+  nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.7s all;
+  }
+  nav ul li:hover{
+    background-color:#17BEDB;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 30px;
+  }
+
+  /*dropdown button*/
+
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    }
+
+    /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  /* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: #ffffff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #17BEDB;
+}
+
+  /* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+  /* Admin Login Button */
+  .btnn {
+    border: 2px solid black;
+    background-color: transparent;
+    
+    color: #17BEDB;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 130px;
+ 
+  }
+
+  .success {
+    border-color: #17BEDB;
+    color: #17BEDB;
+  }
+
+  .success:hover {
+    background-color: #17BEDB;
+    color: white;
+  }
+
+
+
+
+/* Description of controllers */
+.write{
+
+    position: absolute;
+    margin-left: 1070px;
+    margin-top: -360px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    letter-spacing: 10px;
+
+}
+
+.write1{
+
+    position: absolute;
+    margin-left: 490px;
+    margin-top: -340px;
+    color: #17BEDB;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 130px;
+    letter-spacing: 10px;
+
+}
+
+/*button */
+.button{
+   
+        border: 2px solid black;
+        background-color: transparent;
+        color: #17BEDB;
+        padding: 14px 28px;
+        font-size: 16px;
+        cursor: pointer;
+        border-color: #17BEDB;
+        color: #17BEDB;
+        margin-left: 1090px;
+        position: absolute;
+        margin-top: -160px;
+}
+
+.button:hover{
+        background: #17BEDB;
+        color: white;
+
+}
+
+/* Description of controllers */
+.write3{
+
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 60px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    letter-spacing: 10px;
+
+}
+
+.write4{
+
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 90px;
+    color: #17BEDB;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 130px;
+    letter-spacing: 10px;
+
+}
+
+/*button */
+.button2{
+   
+        border: 2px solid black;
+        background-color: transparent;
+        color: #17BEDB;
+        padding: 14px 28px;
+        font-size: 16px;
+        cursor: pointer;
+        border-color: #17BEDB;
+        color: #17BEDB;
+        margin-left: 30px;
+        position: absolute;
+        margin-top: 260px;
+}
+
+.button2:hover{
+        background: #17BEDB;
+        color: white;
+
+}
+
+.write5{
+
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: 430px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    letter-spacing: 10px;
+
+}
+
+.write6{
+
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 440px;
+    color: #17BEDB;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 125px;
+    letter-spacing: 10px;
+    text-align: right;
+    
+
+}
+
+/*button */
+.button3{
+   
+        border: 2px solid black;
+        background-color: transparent;
+        color: #17BEDB;
+        padding: 14px 28px;
+        font-size: 16px;
+        cursor: pointer;
+        border-color: #17BEDB;
+        color: #17BEDB;
+        margin-left: 1090px;
+        position: absolute;
+        margin-top: 750px;
+}
+
+.button3:hover{
+        background: #17BEDB;
+        color: white;
+
+}
+
+/*elite black */
+.writea{
+  position: absolute;
+    margin-left: 50px;
+    margin-top: 850px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    letter-spacing: 10px;
+
+
+}
+
+.writeb{
+    position: absolute;
+    margin-top: 890px;
+    color: #17BEDB;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 125px;
+    letter-spacing: 10px;
+    margin-left: 40px;
+    line-height: 100px;
+}
+
+
+
+/*button elite black */
+.button5{
+  border: 2px solid black;
+  background-color: transparent;
+  color: #17BEDB;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-color: #17BEDB;
+  color: #17BEDB;
+  position: absolute;
+  margin-top: 1110px;
+  margin-left: 50px;
+}
+
+.button5:hover{
+  background: #17BEDB;
+  color: white;
+
+}
+
+/*GOLDEN AND WHITE */
+
+.writec{
+
+  position: absolute;
+  margin-left: 1040px;
+  margin-top: 1290px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  letter-spacing: 10px;
+
+}
+
+.writed{
+
+  position: absolute;
+  margin-left: 690px;
+  margin-top: 1300px;
+  color: #17BEDB;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  font-size: 125px;
+  letter-spacing: 10px;
+  text-align: right;
+  
+
+}
+
+/*button */
+.button6{
+ 
+      border: 2px solid black;
+      background-color: transparent;
+      color: #17BEDB;
+      padding: 14px 28px;
+      font-size: 16px;
+      cursor: pointer;
+      border-color: #17BEDB;
+      color: #17BEDB;
+      margin-left: 1090px;
+      position: absolute;
+      margin-top: 1600px;
+}
+
+.button6:hover{
+      background: #17BEDB;
+      color: white;
+
+}
+
+/*elite black */
+.writee{
+  position: absolute;
+    margin-left: 50px;
+    margin-top: 1690px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    letter-spacing: 10px;
+
+
+}
+
+.writef{
+    position: absolute;
+    margin-top: 1750px;
+    color: #17BEDB;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 125px;
+    letter-spacing: 10px;
+    margin-left: 40px;
+    line-height: 100px;
+}
+
+
+
+/*button elite black */
+.button7{
+  border: 2px solid black;
+  background-color: transparent;
+  color: #17BEDB;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-color: #17BEDB;
+  color: #17BEDB;
+  position: absolute;
+  margin-top: 2010px;
+  margin-left: 50px;
+}
+
+.button7:hover{
+  background: #17BEDB;
+  color: white;
+
+}
+
+/*GOLDEN */
+
+.writeg{
+
+  position: absolute;
+  margin-left: 1040px;
+  margin-top: 2200px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  letter-spacing: 10px;
+
+}
+
+.writeh{
+
+  position: absolute;
+  margin-left: 720px;
+  margin-top: 2250px;
+  color: #17BEDB;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  font-size: 125px;
+  letter-spacing: 10px;
+  text-align: right;
+  
+
+}
+
+/*button */
+.button8{
+ 
+      border: 2px solid black;
+      background-color: transparent;
+      color: #17BEDB;
+      padding: 14px 28px;
+      font-size: 16px;
+      cursor: pointer;
+      border-color: #17BEDB;
+      color: #17BEDB;
+      margin-left: 1090px;
+      position: absolute;
+      margin-top: 2450px;
+}
+
+.button8:hover{
+      background: #17BEDB;
+      color: white;
+
+}
+
+/*elite white */
+.writei{
+  position: absolute;
+    margin-left: 50px;
+    margin-top: 2600px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    letter-spacing: 10px;
+
+
+}
+
+.writej{
+    position: absolute;
+    margin-top: 2650px;
+    color: #17BEDB;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 125px;
+    letter-spacing: 10px;
+    margin-left: 40px;
+    line-height: 130px;
+}
+
+
+
+/*button elite white */
+.button9{
+  border: 2px solid black;
+  background-color: transparent;
+  color: #17BEDB;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-color: #17BEDB;
+  color: #17BEDB;
+  position: absolute;
+  margin-top: 2900px;
+  margin-left: 50px;
+}
+
+.button9:hover{
+  background: #17BEDB;
+  color: white;
+
+}
+
+/*360 white */
+
+.writek{
+
+  position: absolute;
+  margin-left: 1090px;
+  margin-top: 3100px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  letter-spacing: 10px;
+
+}
+
+.writel{
+
+  position: absolute;
+  margin-left: 820px;
+  margin-top: 3150px;
+  color: #17BEDB;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  font-size: 125px;
+  letter-spacing: 10px;
+  text-align: right;
+  
+
+}
+
+/*button */
+.button10{
+ 
+      border: 2px solid black;
+      background-color: transparent;
+      color: #17BEDB;
+      padding: 14px 28px;
+      font-size: 16px;
+      cursor: pointer;
+      border-color: #17BEDB;
+      color: #17BEDB;
+      margin-left: 1090px;
+      position: absolute;
+      margin-top: 3350px;
+}
+
+.button10:hover{
+      background: #17BEDB;
+      color: white;
+
+}
+
+/*360 black*/
+.writem{
+  position: absolute;
+    margin-left: 50px;
+    margin-top: 3680px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    letter-spacing: 10px;
+
+
+}
+
+.writen{
+    position: absolute;
+    margin-top: 3690px;
+    color: #17BEDB;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 125px;
+    letter-spacing: 10px;
+    margin-left: 40px;
+    line-height: 130px;
+}
+
+
+
+/*button 360 black */
+.button11{
+  border: 2px solid black;
+  background-color: transparent;
+  color: #17BEDB;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-color: #17BEDB;
+  color: #17BEDB;
+  position: absolute;
+  margin-top: 3850px;
+  margin-left: 50px;
+}
+
+.button11:hover{
+  background: #17BEDB;
+  color: white;
+
+}
+
+
+/*animation of the controllers */
+
+@keyframes spring1 { 
+    0% { transform: translateY(0); }
+    30% { transform: translateY(-50px); }
+    50% { transform: translateY(0); }
+    100% { transform: translateY(0); }
+  }
+  
+  .spring1 {
+    animation: spring1 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    position: absolute;
+    margin-top: -390px;
+    margin-left: -70px;
+  }
+
+  @keyframes spring2 { 
+    0% { transform: translateY(0); }
+    30% { transform: translateY(-50px); }
+    50% { transform: translateY(0); }
+    100% { transform: translateY(0); }
+  }
+  
+  .spring2 {
+    animation: spring2 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 739px;
+  }
+
+  @keyframes spring3 { 
+    0% { transform: translateY(0); }
+    30% { transform: translateY(-50px); }
+    50% { transform: translateY(0); }
+    100% { transform: translateY(0); }
+  }
+  
+  .spring3 {
+    animation: spring3 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    position: absolute;
+    margin-top: 470px;
+    margin-left: -70px;
+  }
+
+  @keyframes spring4 { 
+    0% { transform: translateY(0); }
+    30% { transform: translateY(-50px); }
+    50% { transform: translateY(0); }
+    100% { transform: translateY(0); }
+  }
+  
+  .spring4 {
+    animation: spring4 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    position: absolute;
+    margin-top: 780px;
+    margin-left: 700px;
+  }
+
+  @keyframes spring5 { 
+    0% { transform: translateY(0); }
+    30% { transform: translateY(-50px); }
+    50% { transform: translateY(0); }
+    100% { transform: translateY(0); }
+  }
+  
+  .spring5 {
+    animation: spring5 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    position: absolute;
+    margin-top: 1300px;
+    margin-left: 70px;
+  }
+
+  @keyframes spring6 { 
+    0% { transform: translateY(0); }
+    30% { transform: translateY(-50px); }
+    50% { transform: translateY(0); }
+    100% { transform: translateY(0); }
+  }
+  
+  .spring6 {
+    animation: spring6 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    position: absolute;
+    margin-top: 1700px;
+    margin-left: 700px;
+  }
+
+  @keyframes spring7 { 
+    0% { transform: translateY(0); }
+    30% { transform: translateY(-50px); }
+    50% { transform: translateY(0); }
+    100% { transform: translateY(0); }
+  }
+  
+  .spring7 {
+    animation: spring7 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    position: absolute;
+    margin-top: 2100px;
+    margin-left: 70px;
+  }
+
+  @keyframes spring8 { 
+    0% { transform: translateY(0); }
+    30% { transform: translateY(-50px); }
+    50% { transform: translateY(0); }
+    100% { transform: translateY(0); }
+  }
+  
+  .spring8 {
+    animation: spring6 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    position: absolute;
+    margin-top: 2600px;
+    margin-left: 500px;
+  }
+
+  @keyframes spring9 { 
+    0% { transform: translateY(0); }
+    30% { transform: translateY(-50px); }
+    50% { transform: translateY(0); }
+    100% { transform: translateY(0); }
+  }
+  
+  .spring9 {
+    animation: spring9 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    position: absolute;
+    margin-top: 3100px;
+    margin-left: 70px;
+  }
+
+  @keyframes spring10 { 
+    0% { transform: translateY(0); }
+    30% { transform: translateY(-50px); }
+    50% { transform: translateY(0); }
+    100% { transform: translateY(0); }
+  }
+  
+  .spring10 {
+    animation: spring10 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    position: absolute;
+    margin-top: 3600px;
+    margin-left: 600px;
+  }
